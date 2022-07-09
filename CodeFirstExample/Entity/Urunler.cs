@@ -16,5 +16,6 @@ namespace CodeFirstExample.Entity
         public string UrunKategori { get; set; }
         public int UrunStok { get; set; }
         public string Aciklama { get; set; }
+        public Kategori Kategori { get; set; }
     }
 }

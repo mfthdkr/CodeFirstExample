@@ -12,5 +12,6 @@ namespace CodeFirstExample.Entity
         [Key]
         public int KategoriId { get; set; }
         public  string KategoriAd { get; set; }
+        public  ICollection<Urunler> Urunlers { get; set; }
     }
 }
