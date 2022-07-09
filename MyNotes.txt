@@ -1,0 +1,3 @@
+(*)  Sütün ismini deðiþtirirken o sütuna ait verilerde silinebilir. Bunu önlemek için migration dosyasý içerisine        örnekteki gibi yazýlabilir: 
+		Sql("Update Kategoris Set KategoriAd = KategoriAdi"); 
+(*)
